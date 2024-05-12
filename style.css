@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+
+}
+i{
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  body{
+    width: 100%;
+  }
+  #section1{
+    height: 100vh;
+    width: 100%;
+    border-bottom: 2px solid white;
+    padding: 60px 0 0 0;
+  }
+  #section2{
+    height: 100vh;
+    width: 100%;
+    border-bottom: 2px solid white;
+    padding: 60px 0 0 0;
+  }
+
+  .section-info{
+    background-color:black;
+    color: white;
+    height: 40px;
+  }
+  a{
+    margin-left: 0.5rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+  }
+  span{
+    font-weight: 300;
+    margin-left: 0.5rem;
+
+  }
+  .fa-phone{
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+
+  }
+  small{
+    font-weight: light;
+  }
+  p{
+    font-size: 13px;
+
+  }
+  .fa-twitter{
+    color: white;
+  }
+  .contact-info{
+    padding: 10px;
+  }
+  .social-links a{
+    margin: 0.6rem;
+  }
+  .gmail{
+    cursor:text;
+    
+  }
+  b{
+    font-weight: 700;
+  }
+  nav{
+    margin-bottom: 4rem;
+  }
+
+  .prap{
+    text-align: justify;
+  }
+  h1{
+    text-align: justify;
+    font-weight: 900;
+    font-size: 50px;
+
+  }
+  .container-fluid{
+    width: 80%;
+  }
+  img{
+    width: 80%;
+    height: auto;
+  }
+  .card-container{
+    margin-top: 8rem;
+    width: 100%;
+  }
+  .card{
+    margin: 1rem;
+    background-color: blueviolet;
+  }
+  .logo{
+    font-weight: 900;
+    color: #f3aa0d;
+    font-size: 80px;
+  }
+ 
+  .fa-code{
+    color: blueviolet;
+  }
+   /* Animation for Image */
+   @keyframes slideInBottom {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .animated-img {
+    animation: slideInBottom 1.2s ease-in-out;
+  }
+ /* Fade in animation */
+ @keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1.4s ease-in-out;
+}
+
+@media (max-width: 1300px) {
+  h1{
+    font-size: 40px;
+  }
+  .logo{
+    font-size: 50px;
+  }
+  .container-fluid{
+    width: 100%;
+  }
+  .animated-img{
+    margin-top: 2rem;
+    width: 670px;
+    height: auto;
+  }
+  .navbar-toggler-icon{
+    font-size: small;
+  }
+  .navbar-toggler,
+  .navbar-toggler:hover,
+  .navbar-toggler:focus,
+  .navbar-toggler:active{
+    border: none;
+  }
+
+
+}
+@media (max-width: 860px){
+  .animated-img{
+    margin-top: 2rem;
+    width: 550px;
+    height: auto;
+  }
+}
+@media (max-width: 520px){
+  .animated-img{
+    margin-top: 2rem;
+    width: 350px;
+    height: auto;
+  }
+  h1{
+    text-align: center;
+  }
+}
+@media (max-width: 376px){
+  h1{
+    text-align: center;
+  }
+  .logo{
+    font-size: 40px;
+  }
+  .prap{
+    font-size: 11px;
+  }
+  nav{
+    margin-bottom: -1rem;
+  }
+  .animated-img{
+    margin-top: -0.5rem;
+    width: 270px;
+    height: auto;
+  }
+}
+
+  
